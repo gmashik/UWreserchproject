@@ -1,2 +1,2 @@
-# UWreserchproject
-amrstl is the simple Adaptive Mesh refinement Implementation of one dimensional differential equation using c++ standard library (vector)
+# 1D simple wave equation AMR solver
+Developed numerical solver for one dimensional wave equation with 1 level refinement code  using C++ vector STL. The code starts computation with a very small number of grids then with time grids were added or removed based on some user defined criteria. Both the time and space complexity are reduced. Numerical solution showed agreement with the exact solution. The stability of the code maintained with constant CFL.
